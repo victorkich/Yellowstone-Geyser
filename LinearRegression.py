@@ -5,7 +5,7 @@ import numpy as np
 from sklearn.model_selection import train_test_split 
 
 # Select the DataSet
-df = pd.read_csv('GeyserUFSM.csv')
+df = pd.read_csv('Geyser.csv')
 
 # Select the values for predict 
 prever = pd.DataFrame({'Data':[200, 230, 245, 270]})
